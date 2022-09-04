@@ -1,0 +1,9 @@
+// import global styles
+@import './globals/variables';
+@import './globals/reset';
+
+// import component styles
+@import '../components/page/style';
+
+// import page styles
+@import '../pages/business-niche/style';

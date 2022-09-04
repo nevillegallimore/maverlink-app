@@ -1,0 +1,11 @@
+{
+    "exec": "ts-node --require tsconfig-paths/register .",
+    "ext": "ts,js,tsx,jsx,json",
+    "ignore": [
+        "./server/**/*.spec.ts"
+    ],
+    "watch": [
+        "./server/**/*.ts",
+        "./server/**/*.json"
+    ]
+}

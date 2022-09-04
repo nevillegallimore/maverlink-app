@@ -1,0 +1,1 @@
+export { BusinessNichePage } from './page';

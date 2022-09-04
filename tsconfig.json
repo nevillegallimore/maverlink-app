@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "alwaysStrict": true,
+        "baseUrl": ".",
+        "esModuleInterop": true,
+        "jsx": "react",
+        "lib": [
+            "dom",
+            "esnext"
+        ],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "outDir": "./build",
+        "paths": {
+            "@client/*": ["./client/*"],
+            "@server/*": ["./server/*"],
+        },
+        "pretty": true,
+        "resolveJsonModule": true,
+        "strict": true,
+        "target": "esnext"
+    },
+    "include": [
+        "client/**/*.ts",
+        "client/**/*.tsx",
+        "server/**/*.ts"
+    ],
+    "exclude": [
+        "**/node_modules",
+        "**/*.spec.ts",
+        "**/*.spec.tsx",
+    ]
+}
